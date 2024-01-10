@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.GridExample"
+             Title="GridExample">
+    <Grid Margin="10" RowDefinitions="*" ColumnDefinitions="*,3*,*">
+        <!--<Border Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" BackgroundColor="CadetBlue" WidthRequest="200"/>
+        <Border Grid.Row="1" Grid.ColumnSpan="3" BackgroundColor="LightYellow" />-->
+        <!--תצוגה-->
+        <Border Grid.Row="0" Grid.Column="0" BackgroundColor="CadetBlue"/>
+        <!--כפתורים-->
+        <Border Grid.Row="0" Grid.Column="1">
+            <Grid RowDefinitions="*,*,*,0.5*" ColumnDefinitions="*,*,*">
+                
+            </Grid>
+        </Border>
+        <!--חישוב-->
+        <Border Grid.Row="0" Grid.Column="2">
+            
+        </Border>
+    </Grid>
+    
+</ContentPage>
